@@ -1,0 +1,107 @@
+.navbar {
+  height: 80px;
+  padding: 0 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #101e27;
+
+  position: relative;
+  z-index: 100;
+}
+
+/* Logo */
+
+.logo {
+  color: rgb(14, 180, 113);
+  text-decoration: none;
+
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family:"Playfair Display", serif;
+  font-style: italic;
+}
+
+
+/* Liens */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  position: relative;
+
+  color: #888890;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff6657;
+}
+
+/* Ligne sous les liens */
+
+.nav-links a::after {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 2px;
+
+  background-color: #ff6657;
+
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Langues 
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language button {
+  border: none;
+  background: transparent;
+  color: white;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+  padding: 5px;
+
+  transition: color 0.3s ease;
+}
+
+.language button:hover {
+  color: #ff6657;
+}
+
+.language button.active {
+  color: #ff6657;
+  font-weight: 700;
+}
+
+.language span {
+  color: #555f65;
+}*/
